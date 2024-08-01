@@ -1,0 +1,84 @@
+@import '_top-nav.css';
+@import '_slider-nav.css';
+@import'_shipping.css';
+@import'_category-nav.css';
+@import'_special-offer.css';
+@import'_product-offer.css';
+@import'_banner-section-1.css';
+@import'_mobile-offer.css';
+@import'_branding-offer.css';
+@import'_footer.css';
+@import'_footer.css';
+@import'_custom-breadcrumb.css';
+@import'_product-description-tab.css';
+
+@font-face {
+  font-family: Vazirmatn100;
+  src: url("../fonts/webfonts/Vazirmatn-Thin.woff2") format("woff2"),
+    url("../fonts/ttf/Vazirmatn-Thin.ttf") format("ttf");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Vazirmatn100;
+  direction: rtl;
+}
+
+a {
+
+
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+@media (max-width: 576px) {
+  .mt-csm-3 {
+    margin-top: 1rem !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .mt-clg-3 {
+    margin-top: 1rem !important;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    max-width: 1440px !important;
+    
+  }
+}
+.owl-carousel .owl-nav.disabled,
+.owl-carousel .owl-dots.disabled {
+    display: block !important;
+}
+
+/* zoomy slider customizing  */
+.zoom-mousemove{
+  border: none !important;
+}

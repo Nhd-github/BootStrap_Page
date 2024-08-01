@@ -1,0 +1,11 @@
+/* .custom-cat-des .cat-desc p {
+    font-size: 2px;
+} */
+.cat-hover{
+    transition: .5s ease-in-out ;
+}
+.cat-hover:hover{
+    z-index: 1;
+    box-shadow: 0 0 7px 1px #cccc;
+
+}

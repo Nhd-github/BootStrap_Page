@@ -1,0 +1,30 @@
+/* .slider-gif-left{
+    width: 300px;
+    height: 300px;
+} */
+/* .side-banner{
+    max-height: 200px;
+} */
+.custom-col-lg-3{
+    flex:0 0 21.00%;
+    max-width: 21.00%;
+
+}
+.custom-col-lg-6{
+    flex:0 0 58.00%;
+    max-width: 58.00%;
+
+}
+@media screen and (max-width:991px){
+    .custom-col-lg-3{
+        flex:0 0 50%!important;
+        max-width: 50.00% !important;
+    
+    }
+    .custom-col-lg-6{
+        flex:0 0 100%!important;
+        max-width: 100.00% !important;
+    
+    }
+
+}

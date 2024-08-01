@@ -1,0 +1,51 @@
+.custom-breadcrumb {
+    margin: 0 !important;
+    background-color: transparent;
+}
+.custom-breadcrumb li{
+    font-size: 16px;
+
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+
+    content: var(--bs-breadcrumb-divider, ">");
+}
+.product-page-rate{
+    color: gold;
+    font-size: 18px;
+    
+}
+.product-page-rate span {
+    color: #5b5b5b00;
+    font-size: 16px;
+}
+.product-page-price{
+    font-size: 18px;
+}
+
+.product-page-price span {
+    color: rgb(217, 64, 64);
+
+}
+.product-page-title{
+    font-size: 23px;
+}
+.describing-product{
+    font-size: 17px;
+    line-height: 36px;
+    /* border-right: 1px solid #efefef; */
+}
+.product-advantages{
+    font-size: 16px;
+
+}
+.brand-cat-title{
+    font-size: 15px;
+    
+    
+}
+.list-benefit-product  li a i{
+font-size: 10px;
+color: #a284f2;
+}

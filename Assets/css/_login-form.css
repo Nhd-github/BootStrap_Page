@@ -1,0 +1,32 @@
+.form-login-modal-top-nav input[type=email],
+.form-login-modal-top-nav input[type=password] {
+
+    border: none;
+    border-bottom: 2px solid #efefef;
+    border-radius: 0;
+}
+
+.modal-content-custom-nav-top {
+    color: black;
+
+}
+
+.form-login-modal-top-nav label {
+    font-size: 14px;
+
+}
+#login-form h5{
+    font-size: 18px;
+}
+
+.form-check-modal{
+    margin-top: 14px;
+}
+.modal-footer-login-form a{
+    font-size: 16px;
+    color: rgb(86, 97, 150);
+}
+.login-form-input::-webkit-input-placeholder {
+    font-size: 13px;
+
+}

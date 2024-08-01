@@ -1,0 +1,17 @@
+.shipping-wrapper i{
+    font-size: 24px;
+    color: red;
+}
+
+.shipping-wrapper .flex-column {
+    font-size: 13px;
+}
+/* .shipping-wrapper {
+    padding: 10px;
+} */
+.custom-mr-1px{
+    margin: 1px;
+}
+/* .wrapper-ads img{
+    height: fit-content;
+} */

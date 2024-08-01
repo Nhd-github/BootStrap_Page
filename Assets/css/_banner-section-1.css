@@ -1,0 +1,24 @@
+.banner-section-1 img {
+    min-width: 200px;
+    /* width: fit-content; */
+    min-height: 200px;
+    margin: auto;
+}
+
+
+
+.banner-section-1 img {
+    overflow: hidden;
+}
+
+.banner-section-1 img {
+    transition: .5s ease-in-out;
+}
+
+.banner-section-1 .banner-hover-1:hover .img-1-p,
+.banner-section-1 .banner-hover-2:hover .img-2-p,
+.banner-section-1 .banner-hover-3:hover .img-3-p,
+.banner-section-1 .banner-hover-4:hover .img-4-p {
+    transform: scale(1.05) rotate(2deg);
+    /* border: 10px solid red; */
+}

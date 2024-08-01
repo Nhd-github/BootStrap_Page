@@ -1,0 +1,113 @@
+.news-letter-sec1 p {
+    font-size: 16px;
+
+}
+
+.news-letter-sec1 a {
+    font-size: 14px;
+
+}
+
+.news-letter .row  {
+    margin-top: -47px;
+    box-shadow:0 0 7px 1px rgba(0, 0, 0, 0.075) ;
+
+}
+
+.news-letter-sec2 p {
+    font-size: 16px;
+    line-height: 33px;
+}
+
+.news-letter-input {
+    border-radius: 0 !important;
+
+}
+
+.news-letter-input::-webkit-input-placeholder {
+    font-size: 15px;
+
+}
+
+.news-letter-sec3 button {
+    font-size: 14px;
+}
+
+@media screen and (max-width:576px) {
+
+    .news-letter-sec2 {
+        /* margin-bottom: 3rem; */
+        justify-content: start !important;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .news-letter-sec2,
+    .news-letter-sec3 {
+        justify-content: center !important;
+        align-items: center;
+
+    }
+}
+
+.main-section-footer h5 {
+    font-size: 15px;
+    border-bottom: 3px solid rgb(92, 92, 92);
+    display: inline-flex;
+    padding: 10px;
+}
+
+.footer-nav-custom li a {
+    font-size: 14px !important;
+    color: #686868 !important;
+    transition: .5s ease-in-out;
+}
+
+.footer-nav-custom li a:hover {
+
+    color: #f40000 !important;
+}
+
+.icon-support-footer {
+    font-size: 39px;
+    color: rgb(124, 124, 183);
+}
+
+.footer-support-tel p,
+.footer-support-tel a {
+    font-size: 13px;
+    color: rgb(124, 124, 183);
+
+}
+
+.social-icon p {
+    font-size: 15px;
+    color: rgb(124, 124, 183);
+
+}
+
+.social-icon ul li a {
+    color: rgb(143, 143, 145);
+    transition: .5s ease-in-out;
+
+}
+
+.social-icon ul li a:hover {
+    color: rgb(10, 10, 118);
+}
+
+.social-icon ul li a.footer-telegram:hover 
+.social-icon ul li a.footer-twitter:hover {
+    color: rgb(40, 40, 182);
+}
+.social-icon ul li a.footer-whatsapp:hover {
+    color: rgb(22, 181, 7);
+}
+.social-icon ul li a.footer-instagram:hover {
+    color: rgb(239, 115, 0);
+}
+.social-icon ul li a.footer-rss:hover {
+    color: rgb(239, 160, 80);
+}

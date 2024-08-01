@@ -1,0 +1,8 @@
+.custom-mobile-offer img {
+    max-width: 120px;
+    max-height: 121px;
+    border-radius: 0;
+    border: none;
+    display: flex;
+    align-self: center;
+}

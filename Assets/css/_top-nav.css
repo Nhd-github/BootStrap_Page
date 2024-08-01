@@ -1,0 +1,172 @@
+.bg-top-nav {
+    background-color: #232f3e;
+    color: #ffff;
+    font-size: 14px;
+}
+
+.bg-custom-nav {
+    background-color: #232f3e;
+
+}
+
+.custom-top-nav a {
+    padding: 10px;
+}
+
+.custom-top-nav .border-end {
+    border-color: #4a4a4a !important;
+}
+
+.custom-btn-font-size {
+    font-size: 14px;
+}
+
+.shop-cart {
+    background: transparent;
+}
+
+.shop-cart span {
+    font-size: 16px;
+}
+
+.shop-cart i {
+    vertical-align: 0px;
+}
+
+.custom-dropdown-toggle::after {
+    vertical-align: 2px;
+}
+
+.basket li a img {
+    width: 64px;
+    height: 64px;
+}
+
+.basket li a {
+    font-size: 12px;
+}
+
+.basket {
+    width: 300px !important;
+}
+
+.custom-ul {
+    width: 115px;
+}
+
+.custom-navbar-nav {
+    font-size: 15x;
+}
+
+.custom-navbar-nav .nav-item {
+    position: unset;
+
+}
+
+.unset-position-relative {
+    /* position: unset; */
+}
+
+.nav-get-relative {
+    /* position: relative; */
+
+}
+
+.custom-navbar-nav .nav-item .dropdown-menu {
+    /* background-color: #232f3e; */
+    color: #ffff;
+    top: 53px;
+    /* border-radius: unset; */
+}
+
+.custom-navbar-nav .nav-item .dropdown-menu a {
+    /* color:#ffff; */
+}
+
+.dropdown-img img {
+    position: absolute;
+
+    left: 0;
+    bottom: 0;
+    height: 250px;
+}
+
+.dropdown-img ul.nav li a {
+    color: rgb(159, 153, 153) !important;
+    font-size: 16px;
+    transition: all .5s ease-in-out;
+
+}
+
+.dropdown-img ul.nav li a i {
+    vertical-align: -1px;
+    font-size: 10px;
+}
+
+.dropdown-img ul li a {
+
+    transition: all .5s ease-in-out;
+}
+
+/* 
+.dropdown-img ul.nav  li .star i{
+    display: inline;   
+} */
+
+/* .dropdown-img ul.nav li.nav-item  a.star:hover,   a.star, i.fas.fa-angle-left::before {
+    margin-right: 7px;
+    color: #645bec !important;
+    
+} */
+
+.dropdown-img ul.nav li.nav-item .star:hover,
+.star:hover i.fas.fa-angle-left::before {
+    margin-right: 7px;
+    color: #645bec !important;
+
+}
+
+/* .star:hover i.fas.fa-angle-left::before {
+    color: #645bec !important;
+
+} */
+.custom-navbar-toggler {
+    color: #fff;
+    border: none !important;
+}
+
+button.custom-navbar-toggler:focus {
+
+    box-shadow: none;
+}
+
+.input-top-nav-search::-webkit-input-placeholder {
+    font-size: 14px;
+
+}
+
+@media (min-width: 767.98px) {
+    .custom-navbar-toggler {
+        margin-left: 133px;
+    }
+}
+
+@media (max-width:991px) {
+    .d-custom-xm-lg-none {
+        display: none;
+    }
+
+}
+
+/* custom-effect-on-address */
+.custom-effect-on-address{
+    overflow: hidden;
+    height:42px
+}
+.custom-effect-on-address a{
+    width: 100px;
+}
+.custom-effect-on-address:hover .first-a,
+.custom-effect-on-address:hover .second-a{
+    transform: translateY(-40px);
+}

@@ -1,0 +1,11 @@
+.owl-carousel-branding .owl-nav{
+    top: 73px;
+}
+.owl-carousel-branding img{
+    min-width: 130px;
+    min-height: 131px;
+    border-radius: 0;
+    border: none;
+    display: flex;
+    align-self: center;
+}
